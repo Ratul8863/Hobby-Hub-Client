@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router";
-import Home from "../Pages/Home";
-import Root from "../Root/Root";
+
+
 import Allgroups from "../Pages/Allgroups";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
@@ -11,6 +11,9 @@ import Creategroup from "../Pages/Creategroup";
 import Groupdetail from "../Pages/Groupdetail";
 import Updategroup from "../Pages/Updategroup";
 import Privetroute from "../Components/Privetroute";
+import Home from "../Pages/Home";
+import Root from "../Pages/Root/Root";
+
 
 
 
@@ -19,14 +22,14 @@ import Privetroute from "../Components/Privetroute";
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />, // Use element not Component
+    element: <Root></Root>, // Use element not Component
     errorElement: <ErrorPages />, // This will catch any error in this route branch
     children: [
       {
         index: true,
         // loader: () => fetch('/data.json'),
        
-        element: <Home />,
+       element : <Home></Home>
         // hydrateFallbackElement : <Loading></Loading>
       },
       {

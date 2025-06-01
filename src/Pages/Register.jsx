@@ -1,9 +1,10 @@
 import React, { useContext, useState } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router';
+import { Link,  useNavigate } from 'react-router';
 import { Valuecontext } from '../Root/Root';
 import { toast } from 'react-toastify';
 import { FaGoogle } from 'react-icons/fa';
 import { Helmet } from 'react-helmet-async';
+import { useLocation } from 'react-router-dom';
 
 function Register() {
   const navigate = useNavigate();

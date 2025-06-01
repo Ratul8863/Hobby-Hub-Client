@@ -1,6 +1,6 @@
 import React, { createContext, useEffect, useState } from 'react'
 import Navbar from '../Components/Navbar'
-import { Outlet } from 'react-router'
+import { Outlet } from 'react-router-dom'
 import Footer from '../Components/Footer.jsX'
 import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from 'firebase/auth';
 import { auth } from '../Firebase/Firebase.config';
