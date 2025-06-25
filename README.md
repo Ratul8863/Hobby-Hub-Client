@@ -1,8 +1,8 @@
 # 🎯 HobbyHub: A Local Hobby Group Organizer
 
-**Live Site:** [https://hobyhub-by-ratul.web.app]
+**Live Site:** [https://hobyhub-by-ratul.web.app](https://hobyhub-by-ratul.web.app)
 
-HobbyHub is a web application where users can discover, join, and create local hobby-based groups such as book clubs, hiking teams, and painting circles. It promotes social interaction through shared interests and helps people form real-world connections.
+**HobbyHub** is a full-stack web application where users can discover, join, and create local hobby-based groups such as book clubs, hiking teams, and painting circles. It promotes social interaction through shared interests and helps people form real-world connections.
 
 ---
 
@@ -15,26 +15,65 @@ HobbyHub is a web application where users can discover, join, and create local h
 - 🌓 Dark/Light Theme Toggle
 - 🧩 Smooth Animations with Lottie and Awesome Reveal
 - 🛡️ Protected Routes for Private Pages
+- ⚠️ 404 Not Found Page + Loading Spinner
 - 📱 Responsive Design for Mobile, Tablet & Desktop
+- 🔒 JWT-based secure route access (HttpOnly Cookie)
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Client:**
-
+### 🔹 Client:
 - React.js (Vite)
-- React Router DOM
-- Firebase Auth
+- Firebase Authentication
 - Tailwind CSS + DaisyUI
-- Lottie React / React Awesome Reveal / React Tooltip
-- SweetAlert2 for notifications
+- React Router DOM
+- Axios
+- Lottie React
+- React Awesome Reveal
+- React Tooltip
+- SweetAlert2 / React Toastify
 
-**Server:**
-
+### 🔹 Server:
+- Node.js
 - Express.js
-- MongoDB Atlas
-- CORS & dotenv
+- MongoDB (Mongoose)
+- CORS
+- dotenv
+- JSON Web Token (JWT)
+- Cookie-parser
 
 ---
 
+- Step 1: Clone the client repository
+
+- Step 2: Navigate into the project folder
+
+- Step 3: Install dependencies
+npm install
+
+- Step 4: Create a `.env` file with the following variables
+VITE_apiKey=your_api_key
+VITE_authDomain=your_auth_domain
+VITE_projectId=your_project_id
+VITE_storageBucket=your_storage_bucket
+VITE_messagingSenderId=your_messagingSenderId
+VITE_appId=your_appId
+VITE_serverURL=https://your-server.vercel.app
+
+- Step 5: Run the development server
+npm run dev
+
+
+## 📦 Dependencies (Client)
+
+```bash
+axios
+firebase
+react-router-dom
+react-icons
+sweetalert2
+react-toastify
+lottie-react
+react-awesome-reveal
+react-tooltip
