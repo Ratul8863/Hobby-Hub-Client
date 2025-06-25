@@ -5,8 +5,8 @@
 **HobbyHub** is a full-stack web application where users can discover, join, and create local hobby-based groups such as book clubs, hiking teams, and painting circles. It promotes social interaction through shared interests and helps people form real-world connections.
 
 ---
-<img src="https://i.ibb.co/WN8djb1j/Screenshot-2025-06-25-145241.png" alt="Project Screenshot" style="border:1px solid #ccc; border-radius:8px;" width="600" />
 
+![Project Screenshot](https://i.ibb.co/BVDHtZZ7/Screenshot-2025-06-25-144117.png)
 
 ---
 
