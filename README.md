@@ -5,6 +5,9 @@
 **HobbyHub** is a full-stack web application where users can discover, join, and create local hobby-based groups such as book clubs, hiking teams, and painting circles. It promotes social interaction through shared interests and helps people form real-world connections.
 
 ---
+![Project Screenshot](https://i.ibb.co/BVDHtZZ7/Screenshot-2025-06-25-144117.png)
+
+---
 
 ## 🚀 Features
 
@@ -46,9 +49,11 @@
 ---
 
 - Step 1: Clone the client repository
+  --git clone https://github.com/yourusername/hobbyhub-client.git
 
 - Step 2: Navigate into the project folder
-
+--cd hobbyhub-client
+  
 - Step 3: Install dependencies
 npm install
 
