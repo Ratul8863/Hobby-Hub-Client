@@ -50,7 +50,6 @@
 ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
 ![CORS](https://img.shields.io/badge/CORS-4B32C3?style=for-the-badge&logo=fastify&logoColor=white)
 ![dotenv](https://img.shields.io/badge/dotenv-000000?style=for-the-badge&logo=dotenv&logoColor=green)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![Cookie Parser](https://img.shields.io/badge/Cookie_Parser-ffca28?style=for-the-badge&logo=cookiecutter&logoColor=black)
 
 ---
